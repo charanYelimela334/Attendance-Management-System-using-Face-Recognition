@@ -8,6 +8,17 @@ recognizer = cv2.face.LBPHFaceRecognizer_create()
 detector = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 
+
+
+# Ensure the directory exists before saving
+directory = 'TrainingImage'
+if not os.path.exists(directory):
+    os.makedirs(directory)
+
+
+
+
+
 def getImagesAndLabels(path):
     # get the path of all the files in the folder
     imagePaths = [os.path.join(path, f) for f in os.listdir(path)]
