@@ -91,7 +91,12 @@ Contributions are welcome! If you have suggestions for improvements or additiona
 
 ##Contributer
 
-@Tecksaksham
+## Contributors
+- Charan Yelimela : https://github.com/charanYelimela334
+
+  
+- Tecksaksham : https://github.com/Techsaksham – Guidance and Support
+
 
 
 ---
